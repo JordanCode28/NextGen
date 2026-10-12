@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .articles-container {
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+  }
+  
+  #marketing .marketing-title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .articles-container {
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  .services-container {
+    grid-template-columns: repeat(2,1fr);
+  }
+}

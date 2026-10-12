@@ -1,0 +1,170 @@
+/* ================= RESET ================= */
+
+/* ================= VARIABLES ================= */
+
+/* ================= GLOBAL ================= */
+
+/* ================= LOADER ================= */
+
+/* ================= HEADER ================= */
+
+/* ================= HAMBURGER ================= */
+
+/* ================= MOBILE NAV ================= */
+
+/* ================= PAGES ================= */
+
+/* ================= SCROLL CONTAINER ================= */
+
+.scroll-container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto 30px;
+}
+
+.scroll-wrapper {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  white-space: nowrap;
+  padding: 10px 5px;
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.buttons-container {
+  display: inline-flex;
+  gap: 12px;
+  padding: 0 5px;
+}
+
+/* = BOUTONS CATÉGORIES = */
+
+.category-btn {
+  flex-shrink: 0;
+  min-width: 140px;
+  text-align: center;
+  background: transparent;
+  padding: 12px 18px;
+  border-radius: 300px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  border-color: var(--gold);
+  background: rgba(255, 215, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.category-btn.gold {
+  border-color: var(--gold);
+  background: rgba(255, 215, 0, 0.08);
+}
+
+/* = ARTICLES = */
+
+.articles-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+.article-card {
+  background: var(--bg-card);
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,215,0,.08);
+  transition: all 0.4s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255,215,0,.3);
+  box-shadow: var(--shadow);
+}
+
+.article-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: .3s;
+}
+
+.article-card:hover img {
+  transform: scale(1.02);
+}
+
+.article-card h2 {
+  margin: 12px 0 8px;
+  font-size: 1.2rem;
+  color: var(--gold);
+}
+
+.article-desc {
+  font-size: 14px;
+  opacity: .75;
+  line-height: 1.4;
+}
+
+.article-price {
+  color: var(--orange);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.article-btn {
+  display: block;
+  text-align: center;
+  background: linear-gradient(135deg,var(--gold),var(--orange));
+  padding: 14px;
+  border-radius: 30px;
+  color: #0a0a14;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform .3s, box-shadow .3s;
+  letter-spacing: 0.5px;
+}
+
+.article-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(255,215,0,0.3);
+}
+
+/* = CONTACT = */
+
+/* = services = */
+
+
+
+/* = SECTION MARKETING (ROUGE, BLANC, NOIR) = */
+
+
+/* section marketing en mode Rouge/Blanc/Noir */
+
+/*  produits marketing  */
+
+/* Bouton d'action marketing */
+
+/*  page marketing  */
+
+/* = À propos = */
+
+/* = commentaires = */
+
+/* = footer = */
+
+/* = responsive = */
+
+/* Liens de catégories (même apparence que les anciens boutons) */
+a.category-btn { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }

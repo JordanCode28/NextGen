@@ -1,0 +1,19 @@
+
+@import url("base.css");
+@import url("layout.css");
+@import url("components.css");
+@import url("pages/accueil.css");
+@import url("pages/apropos.css");
+@import url("pages/services.css");
+@import url("pages/commentaires.css");
+@import url("pages/contact.css");
+@import url("pages/pantshop.css");
+@import url("pages/beauter.css");
+@import url("pages/chaussures.css");
+@import url("pages/mayo.css");
+@import url("pages/lunettes.css");
+@import url("pages/collier.css");
+@import url("pages/cadeaux.css");
+@import url("pages/chapeau.css");
+@import url("pages/marketing.css");
+@import url("responsive.css");

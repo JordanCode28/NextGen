@@ -1,0 +1,39 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.service-card {
+  background: var(--bg-card);
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,215,0,.08);
+  transition: .3s;
+}
+
+.service-card:hover {
+  border-color: rgba(255,215,0,.2);
+}
+
+.service-card h2 {
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.service-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Ajustements propres à cette page */
+#services .services-container { margin-top: 1.5rem; }

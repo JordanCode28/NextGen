@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a14">
+  <title>NEXTGEN — Commentaires</title>
+  <link rel="stylesheet" href="css/global.css">
+  <script src="js/global.js" defer></script>
+  <script src="js/pages/commentaires.js" defer></script>
+</head>
+<body data-page="commentaires">
+<!-- ===== loader ===== -->
+<div id="loading-page">
+  <div class="loader">
+    <div class="loader-circle"></div>
+    <div class="loader-circle"></div>
+  </div>
+  <div class="loading-text"><span class="next">NEXT</span>GEN</div>
+</div>
+
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="header-container">
+    <a href="index.html" class="logo"><span>NEXT</span>GEN</a>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<!-- ===== MOBILE NAV ===== -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="index.html">🏠 Accueil</a>
+  <a href="apropos.html">ℹ️ À propos</a>
+  <a href="services.html">🛠 Services</a>
+  <a href="commentaires.html">💬 Commentaires</a>
+  <a href="contact.html">📧 Contact</a>
+</nav>
+<main>
+<section id="commentaires" class="page active">
+  <h1>💬 Commentaires</h1>
+  <h3>Partagez votre avis sur NEXTGEN. Votre avie est précieux pour nous !</h3>
+
+  <div id="commentsList">
+    <!-- Les commentaire seront affichés là -->
+  </div>
+
+  <div class="comment-form">
+    <h2 style="color: var(--gold); margin-bottom: 15px; font-size: 1.3rem;">Laisser un commentaire</h2>
+    <form id="commentForm">
+      <label for="commentName">Votre nom</label>
+      <input type="text" id="commentName" placeholder="Ex: christophe Colomb" required>
+      
+      <label for="commentContent">Votre message</label>
+      <textarea id="commentContent" placeholder="Partagez votre expérience avec NEXTGEN..." required></textarea>
+      
+      <button type="submit" class="comment-submit">💬 Publier</button>
+    </form>
+  </div>
+</section>
+</main>
+<!-- ===== footer ===== -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-copy">
+      © 2026 NEXTGEN. Nouvelle génération.
+    </div>
+  </div>
+</footer>
+</body>
+</html>

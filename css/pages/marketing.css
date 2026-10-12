@@ -1,0 +1,135 @@
+#marketing .marketing-header {
+  text-align: center;
+  margin-bottom: 35px;
+  background: linear-gradient(145deg, #0a0a0a, #1a0a0a);
+  padding: 40px 20px 30px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  box-shadow: 0 10px 40px rgba(255, 0, 0, 0.15);
+}
+
+#marketing .marketing-header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 40px rgba(255, 0, 0, 0.15);
+  transition: .3s;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+#marketing .marketing-header img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 50px rgba(255, 0, 0, 0.25);
+}
+
+#marketing .marketing-title {
+  font-size: 2.8rem;
+  letter-spacing: 5px;
+  margin-top: 25px;
+  background: linear-gradient(135deg, #ff1a1a, #cc0000, #ff3333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: none;
+  filter: drop-shadow(0 0 25px rgba(255, 0, 0, 0.4));
+}
+
+#marketing .marketing-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 10px auto;
+  font-style: italic;
+  color: #ffffff;
+}
+
+#marketing .marketing-divider {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #ff0000, #ffffff, #ff0000);
+  margin: 15px auto;
+  border-radius: 3px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.5);
+}
+
+#marketing .marketing-tag {
+  opacity: 0.8;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ff3333;
+}
+
+#marketing .article-card {
+  background: linear-gradient(145deg, #0a0a0a, #1a0a0a);
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  border-radius: 20px;
+  transition: all 0.4s ease;
+}
+
+#marketing .article-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(255, 0, 0, 0.6);
+  box-shadow: 0 15px 40px rgba(255, 0, 0, 0.2);
+}
+
+#marketing .article-card h2 {
+  color: #ff3333;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#marketing .article-card .article-desc {
+  color: #cccccc;
+}
+
+#marketing .article-card .article-price {
+  color: #ffffff;
+  font-weight: 800;
+  background: rgba(255, 0, 0, 0.15);
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+#marketing .article-btn {
+  background: linear-gradient(135deg, #cc0000, #ff1a1a);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+}
+
+#marketing .article-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 30px rgba(255, 0, 0, 0.5);
+}
+
+#marketing .marketing-footer {
+  text-align: center;
+  margin-top: 45px;
+  padding: 30px 25px;
+  background: linear-gradient(145deg, #0a0a0a, #1a0a0a);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+#marketing .marketing-footer p {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+#marketing .marketing-footer .credit {
+  margin-top: 12px;
+  opacity: 0.6;
+  font-size: 0.85rem;
+  font-style: normal;
+  color: #ff3333;
+  letter-spacing: 1px;
+}
+
+/* Ajustements propres à cette page */
+#marketing .marketing-footer { margin-top: 1.5rem; }

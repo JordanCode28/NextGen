@@ -1,0 +1,30 @@
+.email-button {
+  display: inline-flex;
+  gap: 14px;
+  align-items: center;
+  background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+  padding: 14px 28px;
+  border-radius: 40px;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.email-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(255, 107, 107, 0.4);
+}
+
+.email-icon {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+/* Ajustements propres à cette page */
+#contact .email-button { margin-top: 1.25rem; }

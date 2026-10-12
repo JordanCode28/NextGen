@@ -1,0 +1,14 @@
+.apropos-content {
+  text-align: center;
+}
+
+.apropos-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  margin: 20px 0;
+  box-shadow: var(--shadow);
+}
+
+/* Ajustements propres à cette page */
+#apropos .apropos-content { margin-top: 1.5rem; }

@@ -1,0 +1,126 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--bg-dark);
+  border-bottom: 1px solid rgba(255,215,0,.1);
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.logo span { color: var(--gold); }
+
+.hamburger {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger span {
+  width: 28px;
+  height: 3px;
+  background: var(--gold);
+  transition: .3s;
+  border-radius: 3px;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px,5px);
+}
+
+.hamburger.active span:nth-child(2) { opacity: 0; }
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px,-5px);
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 280px;
+  height: 100vh;
+  background: #0a0a18;
+  padding-top: 80px;
+  transition: right .4s ease;
+  z-index: 999;
+  border-left: 1px solid rgba(255,215,0,.1);
+}
+
+.mobile-nav.active { right: 0; }
+
+.mobile-nav a {
+  display: block;
+  padding: 18px 25px;
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,215,0,.1);
+  font-size: 16px;
+  transition: .3s;
+}
+
+.mobile-nav a:hover {
+  background: rgba(255,215,0,.05);
+  padding-left: 30px;
+}
+
+.page {
+  display: none;
+  padding: 90px 20px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page.active { display: block; }
+
+.page h1 {
+  text-align: center;
+  color: var(--gold);
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.page h3 {
+  text-align: center;
+  opacity: 0.8;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-weight: 400;
+}
+
+footer {
+  background: #0a0a18;
+  border-top: 1px solid rgba(255,215,0,.08);
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-copy {
+  font-size: 13px;
+  opacity: 0.5;
+}
