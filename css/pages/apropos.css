@@ -3,7 +3,8 @@
 }
 
 .apropos-content img {
-  max-width: 100%;
+  width: 50%;
+  max-width: 50%;
   height: auto;
   border-radius: 18px;
   margin: 20px 0;
